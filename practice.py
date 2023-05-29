@@ -3,5 +3,10 @@
 #print(24)
 
 #learning input function 
-name = input("what's ur name?: ")
-print( "Hello" + name )
+#name = input("What's your name?: ")
+#print( "hello " + name  )
+
+#just for fun-
+#x = 0
+#while x < 100:
+#    print(x)
