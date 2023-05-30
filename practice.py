@@ -10,3 +10,14 @@
 #x = 0
 #while x < 100:
 #    print(x)
+
+
+
+#just for fun-- 
+#print("Give the answers of the maths")
+#x = input("1st question-  23 + 16?: ")
+#if x == 39:
+#    print("Your 1st answer is corret")
+#else: 
+#    print("Your 1st answer is wrong. The correct one is- ", 23 + 16)
+#This code doesn't work as I want....I guess I need a bit more knowledge😊
