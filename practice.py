@@ -53,3 +53,20 @@
 #print(MyName + your_name)
 
 #print("My name is" + " " + MyName)
+
+
+#learning boolean data type
+#bool = True
+#print(bool)
+#print(type(bool))
+
+#z = 10
+#x = 8
+#print(x < z)
+
+#string formatting
+#num1 = 12
+#num2 = 20
+
+#print(f"This is my super numebr {num1 + num2}")
+#print(type(f"{10-5}"))
