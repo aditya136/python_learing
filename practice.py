@@ -70,3 +70,26 @@
 
 #print(f"This is my super numebr {num1 + num2}")
 #print(type(f"{10-5}"))
+
+
+#learning bynary type data
+
+#bytes
+#hablulist = [1,2,3,54,5,41,2,121,255]
+#b = bytes(hablulist)
+#print(bytes(hablulist))
+#print(type(b))
+#b[0] = 10   #bite is immutable
+
+#bytearrays
+#hablulist = [1,2,3,54,5,41,2,121,255]
+#b = bytearray(hablulist)
+#print(bytes(hablulist))
+#print(type(b))
+#b[0] = 10   #bytearray is mutable
+
+
+#learning none type data
+#x = None
+#print(x)
+#print(type(x))
