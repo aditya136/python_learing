@@ -93,3 +93,26 @@
 #x = None
 #print(x)
 #print(type(x))
+
+
+#learning the bacises of list, tuple and range type data
+
+#list type data        is mutable
+#li = ['Aditya', "Arnob", "Ankan", 'Zaiyan']
+#li[0]= "Name-has-changed"
+#print(li)
+#print(type(li)) 
+
+#tuple type data       is immutable
+#tup = ('Aditya', "Arnob", "Ankan", 'Zaiyan')
+#print(tup)
+#print(type(tup))
+
+#range type data
+#ran = range(6)
+#print(ran)
+#print(type(ran))
+
+#a little bit for loop😁
+#for i in ran:
+#    print(i)
