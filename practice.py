@@ -116,3 +116,24 @@
 #a little bit for loop😁
 #for i in ran:
 #    print(i)
+
+
+
+
+#Python operators
+
+#arithmetic operators
+#a = 10
+#b = 20
+#print(a + b)#ad dition
+#print(b - a)#subtraction
+#print(a * b)#multiplication
+#print(b/a)#division
+#print(b % a)#modulus
+
+#exponenetiation
+#x = 5
+#y = 2
+#print(x ** y)#5*5 (works like math to the power)
+#floor division
+#print(x // y)#floor division
