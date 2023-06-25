@@ -137,3 +137,45 @@
 #print(x ** y)#5*5 (works like math to the power)
 #floor division
 #print(x // y)#floor division
+
+
+# assignment operators
+# d = 5 #5 is assigned in d..
+# sum = d + 5  #d + 5 si assigned in the variable called sum
+# print(sum) #At present sum's value is 10
+
+# sum += 1
+# print(sum)#At present sum's value is 11
+
+# sum -= 1
+# print(sum)#At present sum's value is 10
+
+# sum *= 2
+# print(sum)#At present sum's value is 20
+
+# #I have to comment this↓ befor using the floor division equeal(//=) sing....Other wise it won't work
+# sum /= 2
+# print(sum)#At present sum's value is 10.0
+
+# sum //= 2
+# print(sum)#At present sum's value is 5
+
+
+
+#comparison operator
+# a = 2
+# b = 5
+# print(a == b) #equal sing
+# print(a != b) #not equal sing
+# print(a > b) #greater than sing
+# print(a < b) #less than sing
+# print(a >= b) #greater than or equal to   *works like or operator
+# print(a <= b) #less than or equal to      *works like or operator
+
+
+#logical operator
+# a = 2
+# b = 5
+# print(a < b and a > b)
+# print(a < b or a > b)
+# print(not(a < b))
