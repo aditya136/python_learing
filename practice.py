@@ -179,3 +179,56 @@
 # print(a < b and a > b)
 # print(a < b or a > b)
 # print(not(a < b))
+
+
+
+#learning swapping
+
+#int swapping
+# c = 50
+# d = 60
+
+# c,d = d,c #swapping
+
+# print("This value is now c", c)
+# print("This value is now d", d)
+
+#float swapping
+# c = 1.2
+# d = 2.1
+
+# c,d = d,c
+
+# print("This value is now c", c)
+# print("This value is now d", d)
+
+#str swapping
+# c = "it's c"
+# d = "it's d"
+
+# c,d = d,c
+
+# print("This value is c", c)
+# print("This value is d", d)
+
+#complex swapping
+# c = 23j
+# d = 32j
+
+# c,d = d,c
+
+# print("This value is c", c)
+# print("This value is d", d)
+
+
+#learning user input
+# user_name, password = input("Enter your username: "), input("Enter your password: ")
+# print("Hello", user_name + "." + "   " + "Your password is", password)
+
+
+#learning type casting
+# string_type_data = "123"
+# print(type(int(string_type_data)))
+# print(string_type_data)
+# print(type(float(string_type_data)))
+# print(float(string_type_data))
