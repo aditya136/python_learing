@@ -2,9 +2,14 @@
 #''' a alkjd '''
 #print(24)
 
+
+
 #learning input function 
 #name = input("What's your name?: ")
 #print( "hello " + name  )
+
+
+
 
 #just for fun-
 #x = 0
@@ -21,6 +26,12 @@
 #else: 
 #    print("Your 1st answer is wrong. The correct one is- ", 23 + 16)
 #This code doesn't work as I want....I guess I need a bit more knowledge😊
+
+
+
+
+
+
 
 
 #Learning about Data Types-
@@ -55,6 +66,11 @@
 #print("My name is" + " " + MyName)
 
 
+
+
+
+
+
 #learning boolean data type
 #bool = True
 #print(bool)
@@ -64,12 +80,21 @@
 #x = 8
 #print(x < z)
 
+
+
+
+
+
 #string formatting
 #num1 = 12
 #num2 = 20
 
 #print(f"This is my super numebr {num1 + num2}")
 #print(type(f"{10-5}"))
+
+
+
+
 
 
 #learning bynary type data
@@ -89,10 +114,17 @@
 #b[0] = 10   #bytearray is mutable
 
 
+
+
 #learning none type data
 #x = None
 #print(x)
 #print(type(x))
+
+
+
+
+
 
 
 #learning the bacises of list, tuple and range type data
@@ -120,6 +152,9 @@
 
 
 
+
+
+
 #Python operators
 
 #arithmetic operators
@@ -137,6 +172,9 @@
 #print(x ** y)#5*5 (works like math to the power)
 #floor division
 #print(x // y)#floor division
+
+
+
 
 
 # assignment operators
@@ -162,6 +200,10 @@
 
 
 
+
+
+
+
 #comparison operator
 # a = 2
 # b = 5
@@ -173,6 +215,8 @@
 # print(a <= b) #less than or equal to      *works like or operator
 
 
+
+
 #logical operator
 # a = 2
 # b = 5
@@ -182,48 +226,49 @@
 
 
 
-#learning swapping
 
+
+#learning swapping
 #int swapping
 # c = 50
 # d = 60
-
 # c,d = d,c #swapping
-
 # print("This value is now c", c)
 # print("This value is now d", d)
 
 #float swapping
 # c = 1.2
 # d = 2.1
-
 # c,d = d,c
-
 # print("This value is now c", c)
 # print("This value is now d", d)
 
 #str swapping
 # c = "it's c"
 # d = "it's d"
-
 # c,d = d,c
-
 # print("This value is c", c)
 # print("This value is d", d)
 
 #complex swapping
 # c = 23j
 # d = 32j
-
 # c,d = d,c
-
 # print("This value is c", c)
 # print("This value is d", d)
 
 
+
+
+
+ 
 #learning user input
 # user_name, password = input("Enter your username: "), input("Enter your password: ")
 # print("Hello", user_name + "." + "   " + "Your password is", password)
+
+
+
+
 
 
 #learning type casting
@@ -232,3 +277,42 @@
 # print(string_type_data)
 # print(type(float(string_type_data)))
 # print(float(string_type_data))
+
+
+
+
+
+
+
+
+
+
+
+
+#learning python list in depth 
+# li = [1, 2, 3]
+# #print(type(li))
+# li[1] = 10#change list's value
+# print(li)
+#Experiments
+# li2 = ["Aditya", "Arnob", "Ankan", "jaiyan", "Apurbo"]
+# li2[3] = "Zaiyan"
+# li2[0] = 29
+# li2[1] = 89j #change list item
+# li2[2] = 12.3
+# li2[4] = True
+# print(li2)
+# print(type(li2[0]))
+# print(type(li2[1])) #print specific index/value
+# print(type(li2[2]))
+# print(type(li2[3]))
+# print(type(li2[4]))
+
+#Wow we can also take variables as a list item
+# str_var = "adi"
+# int_var = 12
+# float_var = 1.2
+# complex_var = 12j
+# bool_var = False
+# all_var = [str_var, int_var, float_var, complex_var, bool_var]
+# print(all_var)
