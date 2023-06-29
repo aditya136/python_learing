@@ -54,7 +54,6 @@
 #print(aditya)
 #print(type(aditya))
 
-
 #text type data/str type data
 #MyName = "Aditya Banerjee"
 #print(MyName)
@@ -316,3 +315,18 @@
 # bool_var = False
 # all_var = [str_var, int_var, float_var, complex_var, bool_var]
 # print(all_var)
+
+#list item add or remove
+#li = ["Aditya", 12, 1.2, 12j, True]
+#print(li)
+# li.append("Adding a new thing")
+# li.append(13)
+# li.append(12j)
+# print(li)
+
+# li.insert(1, 2.2)
+# li.insert(0, False)
+# print(li)
+
+
+
