@@ -317,7 +317,7 @@
 # print(all_var)
 
 #list item add or remove
-li = ["Aditya", 12, 1.2, 12j, True]
+#li = ["Aditya", 12, 1.2, 12j, True]
 #print(li)
 # li.append("Adding a new thing")
 # li.append(13)
@@ -330,11 +330,21 @@ li = ["Aditya", 12, 1.2, 12j, True]
 
 
 #There is a lot of things to remove item from a list..almost 4 ways..let's try
-#print(li)
+li = ["Aditya", 12, 1.2, 12j, True]
+print(li)
 #li.remove("Aditya")
+#li.remove(12)
+#print(li)
+
+#li.pop(3)
 #li.pop(4)
-#li.pop()
+#li.pop()  #removes the last item if there is no index number given
+#print(li)
+
 #del li[3]
+#del li[0]
 #del li   #as the documentation it should be work but it does not....
+#print(li)
+
 #li.clear()
 #print(li)
