@@ -330,8 +330,8 @@
 
 
 #There is a lot of things to remove item from a list..almost 4 ways..let's try
-li = ["Aditya", 12, 1.2, 12j, True]
-print(li)
+#li = ["Aditya", 12, 1.2, 12j, True]
+#print(li)
 #li.remove("Aditya")
 #li.remove(12)
 #print(li)
@@ -348,3 +348,19 @@ print(li)
 
 #li.clear()
 #print(li)
+
+
+#loop list
+#for loop
+#looplist = ["Arnob", "Ankan", "Zaiya", "Apurbo", "Ronobir", "Ayesha"]
+#for best_friends in looplist:
+#    print(best_friends)
+
+# for best_friends in range(len(looplist)):
+#    print(best_friends)
+
+#while loop
+#y = 0
+#while y < len(looplist):
+#    print(looplist[y])
+#    y = y + 1
