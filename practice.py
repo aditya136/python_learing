@@ -372,3 +372,17 @@
 #while y < len(looplist):
 #    print(looplist[y])
 #    y = y + 1
+
+
+
+
+
+
+#List Comprehension
+
+#newlist = [1, 2, 3, 4, 5]
+# for double in newlist:
+#     print(double*2)   #comprehension does the same thing but, in 1 line
+
+#Double = [ double*2 for double in newlist] 
+#print(Double)
