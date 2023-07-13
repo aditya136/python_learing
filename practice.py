@@ -386,3 +386,35 @@
 
 #Double = [ double*2 for double in newlist] 
 #print(Double)
+
+
+
+
+
+
+
+
+#learning sort list
+
+
+# example_list = [2, 1, 4, 6, 8, 3, 5, 7]
+# print(example_list)
+# example_list.sort()
+# print(example_list)
+
+# eng = ['b', 'a', 'c', 'e', 'd']
+# print(eng)
+# eng.sort()
+# print(eng)
+
+
+#reverse list
+# example_list = [1,2,3,4,5,6,7,8,9,10]
+# print(example_list)
+# example_list.sort(reverse=True)
+# print(example_list)
+
+# eng = ['a', 'b', 'c', 'd', 'e']
+# print(eng)
+# eng.sort(reverse=True)
+# print(eng)
