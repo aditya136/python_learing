@@ -169,6 +169,7 @@
 #x = 5
 #y = 2
 #print(x ** y)#5*5 (works like math to the power)
+
 #floor division
 #print(x // y)#floor division
 
@@ -217,11 +218,11 @@
 
 
 #logical operator
-# a = 2
-# b = 5
-# print(a < b and a > b)
-# print(a < b or a > b)
-# print(not(a < b))
+#a = 2
+#b = 5
+#print(a < b and a > b)
+#print(a < b or a > b)
+#print(not(a < b))
 
 
 
@@ -364,7 +365,7 @@
 #for best_friends in looplist:
 #    print(best_friends)
 
-# for best_friends in range(len(looplist)):
+#for best_friends in range(len(looplist)):
 #    print(best_friends)
 
 #while loop
@@ -381,8 +382,8 @@
 #List Comprehension
 
 #newlist = [1, 2, 3, 4, 5]
-# for double in newlist:
-#     print(double*2)   #comprehension does the same thing but, in 1 line
+#for double in newlist:
+#   print(double*2)   #comprehension does the same thing but, in 1 line
 
 #Double = [ double*2 for double in newlist] 
 #print(Double)
@@ -418,3 +419,25 @@
 # print(eng)
 # eng.sort(reverse=True)
 # print(eng)
+
+
+
+
+#Copy a list
+# num = [1,2,3,4,5,6,7,8,9]
+# print(num)
+# num2 = num.copy()
+# print(num2)
+
+
+
+
+#Join two list
+# li1 = [1,2,3]
+# li2 = [4,5,6,]
+#With out using any method.
+# li3 = li1 + li2
+# print(li3)
+#With method/with the help of a method called extend
+# li1.extend(li2)
+# print(li1)
