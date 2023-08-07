@@ -289,11 +289,12 @@
 
 
 
-#learning python list in depth 
+#learning python list in depth             #It's a mutable data type
 # li = [1, 2, 3]
 # #print(type(li))
-# li[1] = 10#change list's value
+# li[1] = 10#change list's value      
 # print(li)
+
 #Experiments
 # li2 = ["Aditya", "Arnob", "Ankan", "jaiyan", "Apurbo"]
 # li2[3] = "Zaiyan"
@@ -441,3 +442,29 @@
 #With method/with the help of a method called extend
 # li1.extend(li2)
 # print(li1)
+
+
+
+
+
+#Basic of Matrix
+#my_list = [
+#    [1,2,3],
+#    [0.1,837j],      #It's called nested list/matrix
+#    "adi"
+#]
+#print(my_list)
+
+
+
+
+
+
+#learning Tuple in depth
+#my_tuple = (1, 2.3, "adi", 123j, True)    #It's an immutable data type.
+#print(type(my_tuple), my_tuple)
+
+#accecing tuple's index
+#print(my_tuple[2])
+#print(my_tuple[-1])
+#print(my_tuple[2:5])
