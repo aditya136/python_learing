@@ -468,3 +468,13 @@
 #print(my_tuple[2])
 #print(my_tuple[-1])
 #print(my_tuple[2:5])
+
+
+
+#Update Tuples
+# ThisTuple = ("Aditya", "Ayesha", "Ronobir")
+# print(ThisTuple)
+# a = list(ThisTuple)
+# a.append("Faiza")
+# ThisTuple = tuple(a)
+# print(ThisTuple)
