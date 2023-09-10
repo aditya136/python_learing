@@ -1,35 +1,5 @@
-# #print('23')
-#''' a alkjd '''
-#print(24)
-
-
-
-#learning input function 
-#name = input("What's your name?: ")
-#print( "hello " + name  )
-
-
-
-
-#just for fun-
-#x = 0
-#while x < 100:
-#    print(x)
-
-
-
-#just for fun-- 
-#print("Give the answers of the maths")
-#x = input("1st question-  23 + 16?: ")
-#if x == 39:
-#    print("Your 1st answer is corret")
-#else: 
-#    print("Your 1st answer is wrong. The correct one is- ", 23 + 16)
-#This code doesn't work as I want....I guess I need a bit more knowledge😊
-
-
-
-
+#Learning Python
+''' learnt how to commit '''
 
 
 
@@ -59,13 +29,6 @@
 #print(MyName)
 #print(type(MyName))
 
-#your_name = "I don't know"
-#print(MyName + your_name)
-
-#print("My name is" + " " + MyName)
-
-
-
 
 
 
@@ -83,13 +46,13 @@
 
 
 
-
 #string formatting
-#num1 = 12
-#num2 = 20
+'''num1 = 12
+num2 = 20
+print(f"This is my super numebr {num1 + num2}")'''
 
-#print(f"This is my super numebr {num1 + num2}")
 #print(type(f"{10-5}"))
+
 
 
 
@@ -99,54 +62,27 @@
 #learning bynary type data
 
 #bytes
-#hablulist = [1,2,3,54,5,41,2,121,255]
-#b = bytes(hablulist)
-#print(bytes(hablulist))
-#print(type(b))
+''' hablulist = [1,2,3,54,5,41,2,121,255]
+b = bytes(hablulist)
+print(bytes(hablulist))
+print(type(b)) '''
 #b[0] = 10   #bite is immutable
 
 #bytearrays
-#hablulist = [1,2,3,54,5,41,2,121,255]
-#b = bytearray(hablulist)
-#print(bytes(hablulist))
-#print(type(b))
-#b[0] = 10   #bytearray is mutable
+'''hablulist = [1,2,3,54,5,41,2,121,255]
+b = bytearray(hablulist)
+print(bytes(hablulist))
+print(type(b))
+b[0] = 10 '''  #bytearray is mutable
+
 
 
 
 
 #learning none type data
-#x = None
-#print(x)
-#print(type(x))
-
-
-
-
-
-
-
-#learning the bacises of list, tuple and range type data
-
-#list type data        is mutable
-#li = ['Aditya', "Arnob", "Ankan", 'Zaiyan']
-#li[0]= "Name-has-changed"
-#print(li)
-#print(type(li)) 
-
-#tuple type data       is immutable
-#tup = ('Aditya', "Arnob", "Ankan", 'Zaiyan')
-#print(tup)
-#print(type(tup))
-
-#range type data
-#ran = range(6)
-#print(ran)
-#print(type(ran))
-
-#a little bit for loop😁
-#for i in ran:
-#    print(i)
+'''x = None
+print(x)
+print(type(x))'''
 
 
 
@@ -156,10 +92,11 @@
 
 #Python operators
 
+
 #arithmetic operators
 #a = 10
 #b = 20
-#print(a + b)#ad dition
+#print(a + b)#addition
 #print(b - a)#subtraction
 #print(a * b)#multiplication
 #print(b/a)#division
@@ -179,7 +116,7 @@
 
 # assignment operators
 # d = 5 #5 is assigned in d..
-# sum = d + 5  #d + 5 si assigned in the variable called sum
+# sum = d + 5  #d + 5 is assigned in the variable called sum
 # print(sum) #At present sum's value is 10
 
 # sum += 1
@@ -191,7 +128,7 @@
 # sum *= 2
 # print(sum)#At present sum's value is 20
 
-# #I have to comment this↓ befor using the floor division equeal(//=) sing....Other wise it won't work
+# I have to comment this↓ befor using the floor division equeal(//=) sing....Other wise it won't work
 # sum /= 2
 # print(sum)#At present sum's value is 10.0
 
@@ -228,41 +165,24 @@
 
 
 
-#learning swapping
-#int swapping
-# c = 50
-# d = 60
-# c,d = d,c #swapping
-# print("This value is now c", c)
-# print("This value is now d", d)
+# learning swapping
 
-#float swapping
-# c = 1.2
-# d = 2.1
-# c,d = d,c
-# print("This value is now c", c)
-# print("This value is now d", d)
-
-#str swapping
-# c = "it's c"
-# d = "it's d"
-# c,d = d,c
-# print("This value is c", c)
-# print("This value is d", d)
-
-#complex swapping
-# c = 23j
-# d = 32j
-# c,d = d,c
-# print("This value is c", c)
-# print("This value is d", d)
+# swapping
+'''c = 50
+d = 60
+c,d = d,c #swapping
+print("This value is now c", c)
+print("This value is now d", d)'''
 
 
 
 
 
- 
-#learning user input
+ #learning user input
+
+#name = input("What's your name?: ")
+#print( "hello " + name  )
+
 # user_name, password = input("Enter your username: "), input("Enter your password: ")
 # print("Hello", user_name + "." + "   " + "Your password is", password)
 
@@ -285,49 +205,23 @@
 
 
 
+#learning python list in depth             *It's a mutable data type
 
 
-
-
-#learning python list in depth             #It's a mutable data type
 # li = [1, 2, 3]
 # #print(type(li))
 # li[1] = 10#change list's value      
 # print(li)
 
-#Experiments
-# li2 = ["Aditya", "Arnob", "Ankan", "jaiyan", "Apurbo"]
-# li2[3] = "Zaiyan"
-# li2[0] = 29
-# li2[1] = 89j #change list item
-# li2[2] = 12.3
-# li2[4] = True
-# print(li2)
-# print(type(li2[0]))
-# print(type(li2[1])) #print specific index/value
-# print(type(li2[2]))
-# print(type(li2[3]))
-# print(type(li2[4]))
-
-#Wow we can also take variables as a list item
-# str_var = "adi"
-# int_var = 12
-# float_var = 1.2
-# complex_var = 12j
-# bool_var = False
-# all_var = [str_var, int_var, float_var, complex_var, bool_var]
-# print(all_var)
+""" *Wow we can also take variables as a list item"""
 
 #list item add or remove
 #li = ["Aditya", 12, 1.2, 12j, True]
 #print(li)
 # li.append("Adding a new thing")
-# li.append(13)
-# li.append(12j)
 # print(li)
 
 # li.insert(1, 2.2)
-# li.insert(0, False)
 # print(li)
 
 
@@ -335,16 +229,13 @@
 #li = ["Aditya", 12, 1.2, 12j, True]
 #print(li)
 #li.remove("Aditya")
-#li.remove(12)
 #print(li)
 
 #li.pop(3)
-#li.pop(4)
 #li.pop()  #removes the last item if there is no index number given
 #print(li)
 
 #del li[3]
-#del li[0]
 #del li   #as the documentation it should be work but it does not....
 #print(li)
 
@@ -354,24 +245,21 @@
 
 
 
-
-
-
-
-
-
 #loop list
+
 #for loop
-#looplist = ["Arnob", "Ankan", "Zaiya", "Apurbo", "Ronobir", "Ayesha"]
-#for best_friends in looplist:
+# looplist = ["Arnob", "Ankan", "Zaiya", "Apurbo", "Ronobir", "Ayesha"]
+# for best_friends in looplist:
 #    print(best_friends)
 
-#for best_friends in range(len(looplist)):
+# for best_friends in range(len(looplist)):
 #    print(best_friends)
+
 
 #while loop
-#y = 0
-#while y < len(looplist):
+# looplist = ["Arnob", "Ankan", "Zaiya", "Apurbo", "Ronobir", "Ayesha"]
+# y = 0
+# while y < len(looplist):
 #    print(looplist[y])
 #    y = y + 1
 
@@ -382,12 +270,12 @@
 
 #List Comprehension
 
-#newlist = [1, 2, 3, 4, 5]
-#for double in newlist:
-#   print(double*2)   #comprehension does the same thing but, in 1 line
+# newlist = [1, 2, 3, 4, 5]
+# for double in newlist:
+#    print(double*2)   #comprehension does the same thing but, in 1 line
 
-#Double = [ double*2 for double in newlist] 
-#print(Double)
+# Double = [ double*2 for double in newlist] 
+# print(Double)
 
 
 
@@ -404,23 +292,12 @@
 # example_list.sort()
 # print(example_list)
 
-# eng = ['b', 'a', 'c', 'e', 'd']
-# print(eng)
-# eng.sort()
-# print(eng)
-
 
 #reverse list
 # example_list = [1,2,3,4,5,6,7,8,9,10]
 # print(example_list)
 # example_list.sort(reverse=True)
 # print(example_list)
-
-# eng = ['a', 'b', 'c', 'd', 'e']
-# print(eng)
-# eng.sort(reverse=True)
-# print(eng)
-
 
 
 
@@ -435,10 +312,12 @@
 
 #Join two list
 # li1 = [1,2,3]
-# li2 = [4,5,6,]
+# li2 = ['a','b','c',]
+
 #With out using any method.
 # li3 = li1 + li2
 # print(li3)
+
 #With method/with the help of a method called extend
 # li1.extend(li2)
 # print(li1)
@@ -478,3 +357,60 @@
 # a.append("Faiza")
 # ThisTuple = tuple(a)
 # print(ThisTuple)
+
+
+
+#Unpack Tuples         we can also Unpack Lists
+
+'''mytup = ("apple", "banana", "Aditto", "cherry")
+(a, *b, c) = mytup
+print(b)'''
+
+
+
+
+#loop tuple
+
+new_tuple = ("Aditya", "Arnob", "Ronobir", "Ayesha", "Ankan", "Zaiyan")
+
+#using for loop, range and len function...
+'''for loop in new_tuple:
+    print(loop)
+
+for i in range(len(new_tuple)):
+    print(i)'''
+
+
+#using while loop...
+'''i = 0
+while i < len(new_tuple):
+    print(new_tuple[i])
+    i += 1'''
+
+
+
+
+
+#Join tuples
+'''num1 = ("a", "b", "c")
+num2 = (1,2,3)
+
+num3 = num1 + num2
+print(num3)'''
+
+
+#multiply tuples
+'''my_tuple = ("aditto", 29, 13.5, 2008j)
+multiply = my_tuple*2
+print(multiply)'''
+
+
+
+
+#Tuple methods
+'''friends = ("Aditya", "Ayesha", "Ronobir", "Arnab", "Aditya")
+indexing = friends.index("Ayesha")
+print(indexing)
+
+counting = friends.count("Aditya")
+print(counting)'''
