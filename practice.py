@@ -414,3 +414,97 @@ print(indexing)
 
 counting = friends.count("Aditya")
 print(counting)'''
+
+
+
+
+
+
+
+
+
+
+
+
+
+#Python Sets         *A set is a collection which is unordered, unchangeable*, and unindexed.
+
+
+'''my_set = {1, 1.2, 98j, "adi", 1}
+print(type(my_set))
+print(len(my_set))
+print(my_set)'''
+
+
+
+#Access Set Items
+'''Myset = {1,2,"3",3,6}
+
+for i in Myset:
+    print(i)
+
+print("adi" in Myset) #As "adi" is not in the Set so the output will be False
+print("3" in Myset) #As "3" is in the Set so the output will be True'''
+
+
+
+
+
+#Add Sets Items
+
+#add method
+'''my_set1 = {"Aditya", "Arnab", "Zaiyan", "Ankan"}
+my_set1.add("Apurbo")
+print(my_set1)'''
+
+#update method
+'''my_set1 = {"Aditya", "Arnab", "Zaiyan", "Ankan"}
+my_set2 = {"Apurbo", "Arhan"}
+my_set1.update(my_set2)
+print(my_set1)'''
+
+
+
+
+
+#Remove Sets Items
+
+'''#using remove method
+myset = {1, 2, 3, 4, 5, 6}
+myset.remove(4)
+print(myset)
+
+#using discard method
+myset.discard(10)
+print(myset)
+
+#using pop method
+myset.pop() #we don't know which item gots remove
+print(myset)
+
+#using clear method
+myset.clear()
+print(myset)'''
+
+
+
+
+#Loop Sets
+'''myset = {1, 2.3, 68j, "adi"}
+
+for loop in myset:
+    print(loop)
+
+for loop in range(len(myset)):
+    print(loop)'''
+
+
+
+
+#Join Sets
+'''set1 = {"a", "b", "c"}
+set2 = {1, 2, 3}
+
+#We can also use update method..And I also prefer UPDATE method
+set3 = set1.union(set2)
+print(set3)'''
