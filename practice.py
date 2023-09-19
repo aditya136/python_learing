@@ -508,3 +508,40 @@ set2 = {1, 2, 3}
 #We can also use update method..And I also prefer UPDATE method
 set3 = set1.union(set2)
 print(set3)'''
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# PYTHON Dictionary..       changeable, ordered and indexed
+
+'''student_info = {
+    "Aditya" : {
+        "Roll" : 29,
+        "Location" : "Rajshahi",
+        "Id no" : "2402" 
+    },
+    "Ayesha" : {
+        "Roll" : 49, 
+        "Location" : "Rajshahi",
+        "Id no" : "2403"
+    }
+}'''
+
+# student_name = input("Enter the name of the student: ")
+
+
+# if student_name in student_info:
+#     print(student_info[student_name])
+# else:
+#     print("Sorry! We didn't find the student you are searching for")
