@@ -532,7 +532,7 @@ print(set3)'''
         "Id no" : "2402" 
     },
     "Ayesha" : {
-        "Roll" : 49, 
+        "Roll" : 46, 
         "Location" : "Rajshahi",
         "Id no" : "2403"
     }
@@ -545,3 +545,27 @@ print(set3)'''
 #     print(student_info[student_name])
 # else:
 #     print("Sorry! We didn't find the student you are searching for")
+
+
+
+
+
+
+#Accessing Items
+
+my_dict = {
+    "name" : "Aditya",
+    "Roll" : 29,
+    "School" : "Rajshahi University School",
+    "Id" : 136
+}
+
+print(my_dict["name"])
+
+print(my_dict.get("Roll"))
+
+print(my_dict.keys())
+
+print(my_dict.values())
+
+print(my_dict.items())
