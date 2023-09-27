@@ -553,7 +553,7 @@ print(set3)'''
 
 #Accessing Items
 
-my_dict = {
+'''my_dict = {
     "name" : "Aditya",
     "Roll" : 29,
     "School" : "Rajshahi University School",
@@ -568,4 +568,66 @@ print(my_dict.keys())
 
 print(my_dict.values())
 
-print(my_dict.items())
+print(my_dict.items())'''
+
+
+
+#Change dictionary items
+
+'''student_info = {
+    "Aditya" : {
+        "Roll" : 29,
+        "Location" : "Rajshahi",
+        "Id no" : "2402" 
+    },
+    "Ayesha" : {
+        "Roll" : 46, 
+        "Location" : "Rajshahi",
+        "Id no" : "2403"
+    }
+}
+
+
+#Using = operator
+student_info["Ayesha"]["Location"] = "Dhaka"
+print(student_info["Ayesha"]["Location"]) 
+
+#Using update() method
+student_info["Aditya"].update({"Location" : "Dhaka"})
+print(student_info["Aditya"]["Location"]'''
+
+
+
+
+
+#Add & remove items
+
+# ADD
+'''Aditya = {
+    "Name" : "Aditya Banerjee",
+    "Roll" : 29,
+    "Class" : 7,
+    "Section" : "B"
+}
+
+Aditya["Id number"] = 2402
+
+Aditya.update({"color": "red"})
+print(Aditya)
+
+
+
+# REMOVE
+Aditya.pop("Id number")
+
+Aditya.popitem()
+
+del Aditya["Section"]
+
+Aditya.clear()
+print(Aditya)
+
+#del Aditya #this will cause an error because "thisdict" no longer exists.
+#print(Aditya)'''
+
+
