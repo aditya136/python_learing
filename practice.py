@@ -631,3 +631,62 @@ print(Aditya)
 #print(Aditya)'''
 
 
+
+
+
+#Loop dictionary
+
+'''student_info = {
+    "Name" : "Aditya Banerjee",
+    "Roll" : 29,
+    "Ayesha" : {
+        "Class" : 7,
+        "Section" : "B"
+    }
+}
+
+
+for a in student_info:
+    print(a)
+
+for b in student_info.values():
+    print(b)
+
+for c in student_info.keys():
+    print(c)
+
+for d in student_info.items():
+    print(d)'''
+
+
+
+
+#Copy dictionary
+
+'''dict1 = {
+    "Aditya" : 29,
+    "Ayesha" : 48,
+    "Arnab"  : 58,
+    "Ankan"  : 72
+}
+print(dict1)
+
+#Using copy method
+dict2 = dict1.copy()
+print(dict2) 
+
+#Using dict function
+dict3 = dict(dict1)
+print(dict3)'''
+
+
+
+
+
+
+
+
+
+
+
+
