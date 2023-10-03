@@ -689,4 +689,15 @@ print(dict3)'''
 
 
 
+#If else
 
+#conditions
+
+a = 80
+b = 80
+if a > b:
+    print("a is greater than b")
+elif a == b:
+    print("The value of a and b is some")
+else:
+    print("a is not greater than b")
