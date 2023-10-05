@@ -691,13 +691,33 @@ print(dict3)'''
 
 #If else
 
-#conditions
+#conditions & statments
 
-a = 80
+'''a = 80
 b = 80
 if a > b:
     print("a is greater than b")
 elif a == b:
     print("The value of a and b is some")
 else:
-    print("a is not greater than b")
+    print("a is not greater than b")'''
+
+
+
+
+
+
+#Python LOOP
+
+#While loop
+'''i = 0
+while i < 5:
+    print(i)
+    i += 1
+
+#For loop
+fruits = ["apple", "banana", "cherry"]
+for n in fruits:
+    if n == "cherry":
+        break
+    print(n)'''
