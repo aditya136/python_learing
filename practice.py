@@ -707,10 +707,10 @@ else:
 
 
 
-#Python LOOP
+#Python Loop and Break and Continue keywords
 
-#While loop
-'''i = 0
+'''#While loop
+i = 0
 while i < 5:
     print(i)
     i += 1
@@ -720,4 +720,33 @@ fruits = ["apple", "banana", "cherry"]
 for n in fruits:
     if n == "cherry":
         break
-    print(n)'''
+    print(n)
+
+#Break
+for x in range(10):
+    if x == 5:
+        break
+    print(x)
+
+#Continue
+for x in range(10):
+    if x == 2:
+        continue
+    print(x)'''
+
+
+
+
+
+
+
+
+
+
+#Python Function
+
+'''def number(a,b):
+    sum = a + b
+    print(sum)
+
+number(10,10)'''
