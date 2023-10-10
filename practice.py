@@ -750,3 +750,15 @@ for x in range(10):
     print(sum)
 
 number(10,10)'''
+
+
+#Recursion
+'''def recur():
+    print("Recursion")
+    recur()
+
+recur()'''
+
+
+
+#
