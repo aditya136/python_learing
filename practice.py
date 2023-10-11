@@ -761,4 +761,16 @@ recur()'''
 
 
 
-#
+#Zip function 
+'''student_name = ["Aditya", "prithibi", "Arian", "Shejan"]
+student_class = [7, 8, 10, "college"]
+
+print(list(zip(student_name, student_class)))'''
+
+
+
+
+
+
+
+#Python Lamda
