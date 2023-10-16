@@ -772,5 +772,20 @@ print(list(zip(student_name, student_class)))'''
 
 
 
+#Lambda function
+'''def newfun(a,b):
+    sum = a+b
+    print(sum)
 
-#Python Lamda
+division = lambda a,b: a/b
+print(division(20,10))'''
+
+
+
+
+#Debugging
+'''i = 0
+while i < 5:
+    print(i)
+    i = i+1'''
+# I degugged the python code above, it was fun..🥰
