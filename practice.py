@@ -789,3 +789,49 @@ while i < 5:
     print(i)
     i = i+1'''
 # I degugged the python code above, it was fun..🥰
+
+
+
+
+
+
+#Array
+'''MyArray = ["hello", "seg"]
+print(type(MyArray))'''
+
+
+
+
+
+
+#Classes and Object
+'''class information:
+    name = ""
+    roll = ""
+    school = ""
+
+Aditya = information()
+
+Aditya.name, Aditya.roll, Aditya.school = "Aditya", 7, "RUS"
+# Aditya.name = "Aditya"     #we can also do it⬆️It will be shorter
+# Aditya.roll = 7
+# Aditya.school= "RUS"
+print(Aditya.name, Aditya.roll, Aditya.school)'''
+
+
+
+
+
+
+
+#Inheritance
+'''class no1_class:
+    car= "BMW"
+    phone = "Iphone"
+p = no1_class
+
+class no2_class(no1_class): 
+    no_phones = "symphony"
+c = no2_class
+
+print(p.phone)'''
